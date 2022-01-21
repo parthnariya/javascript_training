@@ -42,13 +42,11 @@ th{
     background-color: white;
     display: flex;
     align-items: center;
+    justify-content: right;
 }
 .operation{
     font-size: 26px;
 }
-/* .result{
-    height: 32px;
-} */
 th{
     text-align: left;
 }
@@ -125,4 +123,7 @@ th{
 }
 .equal{
     font-size: 22px;
+}
+.numericValue{
+    font-weight: 800;
 }
